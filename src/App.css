@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url('font-awesome/css/font-awesome.min.css'); 
+@import "tailwindcss";
+
+body {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+}
+
+.fa-quote-left:before {
+    content: "\f10d";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.social-button {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
