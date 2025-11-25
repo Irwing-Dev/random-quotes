@@ -141,7 +141,7 @@ const App: React.FC = () => {
             id="new-quote"
             onClick={getNewQuote}
             style={{ backgroundColor: currentColor, transition: 'background-color 1s ease' }}
-            className="text-white px-4 py-2 rounded-md font-normal text-sm opacity-100 hover:opacity-90 transition-opacity duration-300 shadow-md"
+            className="text-white px-4 py-2 rounded-md font-normal text-sm opacity-100 hover:opacity-90 transition-opacity duration-300 shadow-md cursor-pointer"
           >
             New quote
           </button>
